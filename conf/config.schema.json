@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "root_location": {
+      "description": "Location of the application root folder",
+      "type": "string"
+    },
+    "data_location": {
+      "description": "Location of the application data files",
+      "type": "string"
+    }
+    "temp_location": {
+      "description": "Location of the application temporary files",
+      "type": "string"
+    },
+    "defaultStore": {
+      "description": "The default file store module",
+      "type": "string",
+      "default": "local"
+    }
+  },
+  "required": ["root_location", "data_location", "temp_location"]
+}
