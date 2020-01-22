@@ -9,7 +9,7 @@
     "data_location": {
       "description": "Location of the application data files",
       "type": "string"
-    }
+    },
     "temp_location": {
       "description": "Location of the application temporary files",
       "type": "string"
